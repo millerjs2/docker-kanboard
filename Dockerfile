@@ -12,7 +12,6 @@ RUN apk add --no-cache \
 ADD nginx.conf /etc/nginx
 ADD php-fpm.conf /etc/php5
 ADD run.sh /
-ADD index.php /
 
 # get the kanban install files
 ADD https://kanboard.net/kanboard-1.0.31.zip /
