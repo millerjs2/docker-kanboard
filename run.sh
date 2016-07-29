@@ -15,7 +15,7 @@ php-fpm
 mv /kanboard/* /data/htdocs/
 
 # make sure web server has ownership
-chown nginx:www-data /data/htdocs
+chown -R nginx:www-data /data/htdocs
 
 # start nginx
 mkdir -p /data/logs/nginx
