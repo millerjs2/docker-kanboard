@@ -1,6 +1,6 @@
 # Docker image for [KanBoard](https://kanboard.net/) project management software
 
-Currently doesn't work - in progress.
+Verified to work with KanBoard v1.0.31
 
 ### Usage
 Build the image:
@@ -11,8 +11,7 @@ Start the image:
 ```bash
 docker run -v /data:/data -p 80:80 you/imagename
 ```
-
-Browse to http://dockerip/installer.php to start the install process.
+Browse to http://dockerip/ and login with admin/admin.
 
 ### Volume structure
 
