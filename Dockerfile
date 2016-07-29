@@ -26,7 +26,7 @@ RUN chmod +x /run.sh
 EXPOSE 80
 
 # set the data volume
-VOLUME ["/kb/"]
+VOLUME ["/data/"]
 
 # start
 CMD ["/run.sh"]
