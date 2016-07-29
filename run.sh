@@ -11,8 +11,8 @@ fi
 mkdir -p /data/logs/php-fpm
 php-fpm
 
-# move the index file into place
-mv /index.php /data/htdocs
+# move the kanboard files into place
+mv /kanboard-1.0.31/* /data/htdocs/
 
 # start nginx
 mkdir -p /data/logs/nginx
