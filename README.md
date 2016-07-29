@@ -1,4 +1,4 @@
-# Docker image for [HTMLy](https://github.com/danpros/htmly) blogging platform
+# Docker image for [KanBoard](https://kanboard.net/) project management software
 
 Currently doesn't work - in progress.
 
