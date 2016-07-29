@@ -14,6 +14,9 @@ php-fpm
 # move the kanboard files into place
 mv /kanboard/* /data/htdocs/
 
+# make sure web server has ownership
+chown nginx:www-data /data/htdocs
+
 # start nginx
 mkdir -p /data/logs/nginx
 mkdir -p /tmp/nginx
